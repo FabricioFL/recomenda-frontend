@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minhas recomendações de músicas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" href="images/fav.jpg" type="image/x-icon">
+    <script src="js/rock.js" defer></script>
+    <script src="js/electroswing.js" defer></script>
+    <script src="js/pop.js" defer></script>
+    <script src="js/lofi.js" defer></script>
+</head>
+<body>
+    <section>
+        <h1>Escolha a categoria que você quer a recomendação</h1>
+        <div id="rock" onclick="rockAleatorio()">
+            <img src="images/rock.jpg">
+            <a>Rock</a>
+        </div>
+        <div id="electroswing" onclick="electroswingAleatorio()">
+            <img src="images/electroswing.jpg">
+            <a>ElectroSwing</a>
+        </div>
+        <div id="pop" onclick="popAleatorio()">
+            <img src="images/pop.jpg">
+            <a>POP</a>
+        </div>
+        <div id="lofi" onclick="lofiAleatorio()">
+            <img src="images/lofi.png">
+            <a>Lo-Fi</a>
+        </div>
+    </section>
+</body>
+</html>
